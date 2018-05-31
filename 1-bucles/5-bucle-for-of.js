@@ -33,3 +33,9 @@ let gente = [{
         edad: 10
     },
 ]
+
+for(let persona of gente){
+    if(persona.nombre.toLowerCase().charAt(0) === 'j'){
+        console.log(`${persona.nombre}: ${persona.edad}`);
+    }
+}
