@@ -35,3 +35,7 @@ let gente = [{
     },
 ]
 
+
+console.log(gente.filter(persona => {
+    return persona.nombre.toLowerCase().charAt(0) === 'j' && persona.edad < 40
+}));
