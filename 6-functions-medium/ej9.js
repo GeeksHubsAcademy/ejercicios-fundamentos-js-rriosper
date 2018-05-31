@@ -12,11 +12,9 @@
 // Ha de pasar los test adjuntados.
 
 let extraerAcronimo = (...input) => {
-    let acronimo = '';
     // Aquí tu código.  Desde aquí:
-   
+    return input.map(e => {return String(e).charAt(0)}).join('');
     // Hasta aquí.
-    return acronimo;
 }
 
 
