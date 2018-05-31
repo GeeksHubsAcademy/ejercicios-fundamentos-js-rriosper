@@ -5,7 +5,15 @@
 
 
 // Aquí tu código
+const obj = {
+    a: {
+        b: true,
+        c: [0,1]
+    },
+    d: 5,
+    f: 'abcd'
 
+}
 // Hasta aquí
 
 // TEST 1
