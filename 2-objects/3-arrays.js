@@ -5,8 +5,19 @@
 
 
 // Aquí tu código
-
-
+const arr = [{
+        name: 'pepito',
+        age: 25
+    },
+    {
+        name: 'pepito',
+        age: 30
+    },
+    {
+        name: 'Juan',
+        age: 25
+    }
+];
 // Hasta aquí
 
 // TEST 1
