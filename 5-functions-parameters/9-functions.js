@@ -9,7 +9,12 @@
 //  throw new Error('muestraPorConsolaEurosEnPesetas debe recibir un number');
 
 // Aquí tu código
-
+function muestraPorConsolaEurosEnPesetas(euros){
+    if(typeof euros !== 'number'){
+        throw new Error('convierteEurosEnPesetas debe recibir un number')
+    }
+    console.log(euros * 168);
+}
 
 // Hasta aquí
 
