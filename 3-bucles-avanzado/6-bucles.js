@@ -15,8 +15,8 @@ for (let i = 0; i < giveMeIntegerRandom(10); i++) {
 }
 console.log('El array original es:  arr =', arr);
 // Aquí tu código
-
-
+let dobleArr = [];
+arr.forEach(n => {dobleArr.push(n * 2)});
 
 
 // Hasta aquí
