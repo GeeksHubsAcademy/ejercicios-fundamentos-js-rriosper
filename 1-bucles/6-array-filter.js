@@ -33,3 +33,6 @@ let gente = [{
     },
 ]
 
+console.log(gente.filter(persona => {
+    return persona.nombre.length === 4
+}));
